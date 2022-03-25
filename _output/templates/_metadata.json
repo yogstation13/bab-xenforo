@@ -1,0 +1,17 @@
+{
+    "admin/connected_account_provider_BAB.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4aa95d07e02e9d59fdee7f6f59f48926"
+    },
+    "admin/connected_account_provider_test_BAB.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6799266c3078b1a0ba0e11a719b1a88d"
+    },
+    "public/connected_account_associated_BAB.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "77aa4c3ef391c74824a9a15d6da46158"
+    }
+}

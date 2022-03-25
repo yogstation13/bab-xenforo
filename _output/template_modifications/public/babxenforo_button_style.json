@@ -1,0 +1,9 @@
+{
+    "template": "core.less",
+    "description": "Adds button for login with BYOND",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/$/",
+    "replace": ".button, a.button\n{\n\t&.button--provider\n\t{\n\t\t&.button--provider--BAB {\n\t\t\t.m-buttonColorVariation(#F07517, white);\n\t\t\tfont-weight: @faWeight-light;\n\t\t\t.m-buttonIcon(@fa-var-atom, .86em);\n\t\t}\n\t}\n}"
+}

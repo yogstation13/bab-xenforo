@@ -1,0 +1,14 @@
+{
+    "con_acc.BAB.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "490a720cabe390bc008fb0c423c94fac"
+    },
+    "con_acc_desc.BAB.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+}

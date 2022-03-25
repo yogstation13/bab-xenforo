@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="core.less" modification_key="babxenforo_button_style" description="Adds button for login with BYOND" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/$/]]></find>
+    <replace><![CDATA[.button, a.button
+{
+	&.button--provider
+	{
+		&.button--provider--BAB {
+			.m-buttonColorVariation(#F07517, white);
+			font-weight: @faWeight-light;
+			.m-buttonIcon(@fa-var-atom, .86em);
+		}
+	}
+}]]></replace>
+  </modification>
+</template_modifications>
