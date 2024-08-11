@@ -26,7 +26,7 @@ class BAB extends \OAuth\OAuth2\Service\AbstractService
         parent::__construct($credentials, $httpClient, $storage, $scopes, $baseApiUri, true);
 
         if (null === $baseApiUri) {
-            $this->baseApiUri = new Uri('https://bab.yogstation.net/');
+            $this->baseApiUri = new Uri('https://bab.alexkar598.dev/');
         }
     }
 
@@ -52,12 +52,12 @@ class BAB extends \OAuth\OAuth2\Service\AbstractService
 
     public function getAuthorizationEndpoint(): Uri
     {
-        return new Uri('https://bab.yogstation.net/auth/authorize');
+        return new Uri('https://bab.alexkar598.dev/auth/authorize');
     }
 
     public function getAccessTokenEndpoint(): Uri
     {
-        return new Uri('https://bab.yogstation.net/auth/token');
+        return new Uri('https://bab.alexkar598.dev/auth/token');
     }
 
     protected function getAuthorizationMethod()

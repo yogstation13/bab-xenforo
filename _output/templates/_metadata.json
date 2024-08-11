@@ -1,8 +1,8 @@
 {
     "admin/connected_account_provider_BAB.html": {
-        "version_id": 1000070,
-        "version_string": "1.0.0",
-        "hash": "4aa95d07e02e9d59fdee7f6f59f48926"
+        "version_id": 2000070,
+        "version_string": "2.0.0",
+        "hash": "5f335c53be636f8d7acfe5e2dcf3a123"
     },
     "admin/connected_account_provider_test_BAB.html": {
         "version_id": 1000070,

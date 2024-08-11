@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <templates>
-  <template type="admin" title="connected_account_provider_BAB" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:textboxrow name="options[client_id]" value="{$options.client_id}"
+  <template type="admin" title="connected_account_provider_BAB" version_id="2000070" version_string="2.0.0"><![CDATA[<xf:textboxrow name="options[client_id]" value="{$options.client_id}"
 	label="{{ phrase('client_id') }}"
-	hint="{{ phrase('required') }}"
-	explain="{{ phrase('con_acc_github_client_id_explain') }}" />
+	hint="{{ phrase('required') }}" />
 
 <xf:textboxrow name="options[client_secret]" value="{$options.client_secret}"
 	label="{{ phrase('client_secret') }}"
-	hint="{{ phrase('required') }}"
-	explain="{{ phrase('con_acc_github_client_secret_explain') }}" />]]></template>
+	hint="{{ phrase('required') }}" />]]></template>
   <template type="admin" title="connected_account_provider_test_BAB" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:if is="!$providerData">
 	<xf:macro template="connected_account_provider_test_macros" name="explain"
 		arg-providerTitle="{$provider.title}"
